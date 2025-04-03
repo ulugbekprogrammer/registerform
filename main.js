@@ -31,7 +31,7 @@ function registerUser() {
 
     if (user_exist) {
         alert('Bu user allaqachon mavjud! Boshqa username tanlang!');
-        return;        
+        return;
     }
     
     users.push({ username, password });
